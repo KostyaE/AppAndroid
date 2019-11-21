@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppWeather2.FriendPage" Title="Добавить город">
+
+    <StackLayout Margin="5,5,5,5">
+        <Entry x:Name="entryCity" Placeholder="Город" Margin="0,10,0,10"/>
+
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Сохранить" Clicked="SaveFriend" />
+            <Button Text="Отмена" Clicked="Cancel" />
+        </StackLayout>
+    </StackLayout>
+</ContentPage>
